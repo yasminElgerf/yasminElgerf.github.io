@@ -1,6 +1,6 @@
 # My Portfolio Website
 
-My name is $Yasmin Elgerf$ This is my personal portfolio website for APCO/VISA 2P61: Website Creation.  
+My name is **Yasmin Elgerf**. This is my personal portfolio website for APCO/VISA 2P61: Website Creation.  
 It is hosted through GitHub Pages and will be used to organize and share my course work, assignments, and project links.
 
 ## About This Website
