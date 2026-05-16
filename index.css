@@ -3,7 +3,7 @@ body {
     background-color: bisque;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* margin: 0; */
+    margin: 0;
     padding: 30px;
 
 
@@ -21,15 +21,18 @@ h2 {
 
 }
 
-h3 {
+h3 {    
+    margin-top: 25px;
+    text-align: left;
     color: rgb(140, 87, 145);
     font-family: 'Times New Roman', Times, serif;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: -5px;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); */
 }
 
 p {
     color: rgb(181, 36, 104);
-
+    line-height: 1.5;
 }
 
 section {
@@ -48,6 +51,21 @@ section {
 */
 .responses {
     color: rgb(143, 55, 55);
-    text-align: center;
+    text-align: left;
+    max-width: 450px;
+    line-height: 1.6;
+}
 
+a {
+    display: inline-block;
+    background-color: rgb(92, 43, 128);
+    color: white;
+    text-decoration: none; 
+    padding: 10px 16px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+a:hover {
+    background-color: rgb(140, 87, 145);
 }
