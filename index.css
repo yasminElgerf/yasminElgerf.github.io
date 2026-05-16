@@ -2,32 +2,52 @@ body {
 
     background-color: bisque;
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* margin: 0; */
+    padding: 30px;
 
 
+}
+
+h1 {
+    color: rgb(92, 43, 128);
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 h2 {
     color: rgb(60, 24, 123);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
 }
 
 h3 {
-    color: rgb(14, 14, 147);
+    color: rgb(140, 87, 145);
     font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 p {
     color: rgb(181, 36, 104);
-    
+
 }
 
+section {
+    background-color: white;
+    width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid rgb(230, 180, 120);
+    box-shadow: 0 4px 12px rgb(129, 118, 118);
+}
 
 /* CLASSES SELECTORS */
 
-/* class for my reading responses
+/* class for my reading responses paragraphs
 */
-
-.responses{
-    color: red;
+.responses {
+    color: rgb(143, 55, 55);
+    text-align: center;
 
 }
