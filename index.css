@@ -22,12 +22,14 @@ h2 {
 }
 
 h3 {    
-    margin-top: 25px;
+
     text-align: left;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     color: rgb(140, 87, 145);
-    font-family: 'Times New Roman', Times, serif;
-    margin-bottom: -5px;
-    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); */
+
+
 }
 
 p {
@@ -51,8 +53,9 @@ section {
 */
 .responses {
     color: rgb(143, 55, 55);
-    text-align: left;
-    max-width: 450px;
+    text-align:justify;
+    max-width: 500px;
+    margin: 10px auto 25px auto; 
     line-height: 1.6;
 }
 
